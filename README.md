@@ -1,2 +1,2 @@
 # todolist_nodejs
-Projeto todoList desenvolvido em nodejs e mysql.
+Projeto todo List (lista de pra fazer) desenvolvido em nodejs e mysql.
