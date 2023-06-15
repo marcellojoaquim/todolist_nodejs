@@ -15,19 +15,26 @@ Node Js is a popular framework widely used in server side development with javas
 # Rotas (routes)
 
 - GET /tasks
+&nbsp;
 Retorna todas as tasks
 
 - POST /tasks
-Cria uma nova task e é necessário o envio do request body com o title e o status da task
+Cria uma nova task e é necessário o envio do request body com o title e o status da task.
+&nbsp;
 {
+    &nbsp;
     "title": "content",
+    &nbsp;
     "status": "status"
+    &nbsp;
 }
 
 - PUT /tasks/id
+&nbsp;
 Atualiza uma task com o id passado como parâmetro no endpoint.
 
 - DELETE /tasks/id
+&nbsp;
 Deleta uma task com o id passado como parâmetro no endpoint.
 
 # Tecnologias e Ferramentas utilizadas (technologies and tool)
