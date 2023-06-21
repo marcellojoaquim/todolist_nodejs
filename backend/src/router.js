@@ -3,6 +3,7 @@ const tasksController = require('./controllers/tasksController');
 const router = express.Router();
 const tasksMiddleware = require('./middlewares/tasksMiddleware');
 
+router.get('/tasks/:id', tasksController.getById);
 router.get('/tasks', tasksController.getAll);
 router.post('/tasks', tasksMiddleware.validateFieldTitle, tasksController.createTask);
 router.delete('/tasks/:id', tasksController.deleteTask);
